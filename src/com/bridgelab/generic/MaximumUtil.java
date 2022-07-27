@@ -1,61 +1,40 @@
 package com.bridgelab.generic;
 
-public class MaximumUtil {
-    public static int maxInt(Integer x, Integer y, Integer z)
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+
+public class MaximumUtil <s1>{
+    public s1 [] arrayInput;
+
+    //get arrayInput
+    public s1[] getArrayInput()
     {
-        Integer maxValue = x;
-        if (y.compareTo(maxValue) > 0)
-        {
-            maxValue = y;
-        }
-        if (z.compareTo(maxValue) > 0)
-        {
-            maxValue = z;
-        }
-        return maxValue;
-    }
-    //------------------- Float---------------------------------
-    public static double maximumFloat(Double x, Double y, Double z)
-    {
-        Double maxValueFloat = x;
-        if (y.compareTo(maxValueFloat) > 0)
-        {
-            maxValueFloat = y;
-        }
-        if (z.compareTo(maxValueFloat) > 0)
-        {
-            maxValueFloat = z;
-        }
-        return maxValueFloat;
-    }
-    public static String maximumString(String first, String second, String third) {
-        int maxValueString = first.length();
-        String letter = first;
-        if (second.length() > maxValueString) {
-            maxValueString = second.length();
-            letter = second;
-        }
-        if (third.length() > maxValueString) {
-            maxValueString = third.length();
-            letter = third;
-        }
-        return letter;
-    }
-    private static void printMaxValue(double maxValueFloat)
-    {
-        System.out.println(" Maximum number is : " + maxValueFloat);
+        return arrayInput;
     }
 
-    private static void printMaxValue(String maxValueString)
+    //Set arrayInput
+    public void setArrayInput(s1[] arrayInput)
     {
-        System.out.println(" Maximum String is : " + maxValueString);
+        this.arrayInput = arrayInput;
+    }
+    //Constructor
+    public MaximumUtil(s1[] arrayInput)
+    {
+        this.arrayInput = arrayInput;
+    }
+
+    public static <s1> Comparable findMax(s1[] arr)
+    {
+        List arrList = Arrays.asList(arr);
+        Comparable maxValue = Collections.max(arrList);
+
+        return maxValue;
     }
     // --------------------- MAin Method -----------------------------------
     public static void main(String[] args)
     {
-        printMaxValue(maxInt(100, 200, 400));
-        printMaxValue(maximumFloat(2.1, 1.1, 3.5));
-        printMaxValue(maximumString("apple","ball","cat"));
+
     }
 }
 
