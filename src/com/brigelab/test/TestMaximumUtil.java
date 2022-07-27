@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class TestMaximumUtil {
+
     //------------------- Test for Integers ----------------------------------------
     @Test
     public void givenFirstNumberIsMaxNumberThenReturnFirstNumberAsMax()
@@ -64,5 +65,4 @@ public class TestMaximumUtil {
         Object[] arr = {"Banana", "Apple","Peach"};
         Assert.assertEquals(arr[2], MaximumUtil.findMax(arr));
     }
-
 }
