@@ -23,4 +23,24 @@ public class TestMaximumUtil {
         int  maxNumber1=MaximumUtil.maxInt(100,400,900);
         Assert.assertEquals(maxNumber1,900);
     }
+    //------------------- Test for Float --------------------------
+
+    @Test
+    public void givenFloatFirstNumberIsMaxNumberThenReturnFirstNumberAsMax() {
+
+        Double maximum = MaximumUtil.maximumFloat(14.3, 1.2, 2.3);
+        Assert.assertEquals((Double) 14.3, maximum);
+    }
+
+    @Test
+    public void givenFloatSecondNumberIsMaXNumberThenReturnSecondNumberAsMaximum() {
+        Double maximum = MaximumUtil.maximumFloat(1.2,14.3, 2.3);
+        Assert.assertEquals((Double) 14.3, maximum);
+    }
+
+    @Test
+    public void givenFloatThirdNumberIsMaXNumberThenReturnThirdNumberAsMaximum() {
+        Double maximum = MaximumUtil.maximumFloat( 1.2, 2.31,14.3);
+        Assert.assertEquals((Double) 14.3, maximum);
+    }
 }
