@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bec2ae39-befd-49fa-b9a2-a3aa0cfc461e" name="Changes" comment="Added Program to find the Maximum string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bridgelab/generic/MaximumUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bridgelab/generic/MaximumUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="bec2ae39-befd-49fa-b9a2-a3aa0cfc461e" name="Changes" comment="Added Program for extend the max method to take more then three parameters" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +182,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658896542514</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Test case for extend the max method to take more then three parameters">
+      <created>1658897106515</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658897106515</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added Program for extend the max method to take more then three parameters">
+      <created>1658897270228</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658897270228</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +215,8 @@
     <MESSAGE value="Test case 3 floats for find  maximum" />
     <MESSAGE value="Test case to find the Maximum String" />
     <MESSAGE value="Added Program to find the Maximum string" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Program to find the Maximum string" />
+    <MESSAGE value="Test case for extend the max method to take more then three parameters" />
+    <MESSAGE value="Added Program for extend the max method to take more then three parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Program for extend the max method to take more then three parameters" />
   </component>
 </project>
